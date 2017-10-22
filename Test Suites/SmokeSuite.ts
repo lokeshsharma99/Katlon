@@ -4,7 +4,7 @@
    <name>SmokeSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-22T18:04:36</lastRun>
+   <lastRun>2017-10-22T23:33:44</lastRun>
    <mailRecipient>lokeshsharma99@live.in;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
