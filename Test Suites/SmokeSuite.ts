@@ -4,7 +4,7 @@
    <name>SmokeSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-22T17:59:21</lastRun>
+   <lastRun>2017-10-22T18:04:36</lastRun>
    <mailRecipient>lokeshsharma99@live.in;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,9 +18,9 @@
       <testCaseId>Test Cases/Lgon/TC01</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dd988bcd-69f8-492f-a258-64f2ad3fe71f</guid>
+      <guid>7b9de187-4680-47a7-8bd6-5237ce80f53a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02</testCaseId>
+      <testCaseId>Test Cases/TC03</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
