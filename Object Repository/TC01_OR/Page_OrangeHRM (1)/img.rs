@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>b7da090c-f42a-4cd2-9c55-b270acef802e</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-quick-launch-panel-menu_holder&quot;)/table[@class=&quot;quickLaungeContainer&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;quickLaunge&quot;]/a[1]/img[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png</value>
+   </webElementProperties>
+</WebElementEntity>
