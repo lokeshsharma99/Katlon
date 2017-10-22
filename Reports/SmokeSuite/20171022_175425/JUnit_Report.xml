@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeSuite" time="26" tests="2" failures="0" errors="0">
+   <testsuite name="SmokeSuite" tests="2" failures="0" errors="0" time="26" timestamp="2017-10-22 17:54:26" hostname="lokesh - DESKTOP-7FI2243" id="Test Suites/SmokeSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lokesh\\Katalon Studio\\recordTest\\Reports\\SmokeSuite\\20171022_175425"/>
+         <property name="logFiles" value="C:\\Users\\lokesh\\Katalon Studio\\recordTest\\Reports\\SmokeSuite\\20171022_175425\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lokesh - DESKTOP-7FI2243"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="5fb0d0f9f97776c2be0b96324a4594b4"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Lgon/TC01" classname="Test Cases/Lgon/TC01" status="PASSED">
+         <system-out><![CDATA[2017-10-22 17:54:27 - [TEST_CASE][PASSED] - Test Cases/Lgon/TC01: Test Cases/Lgon/TC01
+
+2017-10-22 17:54:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-22 17:54:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-22 17:54:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2017-10-22 17:54:34 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2017-10-22 17:54:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2017-10-22 17:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2017-10-22 17:54:34 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:54:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:54:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:54:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:54:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:54:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' is clicked on
+
+2017-10-22 17:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' is clicked on
+
+2017-10-22 17:54:40 - [TEST_STEP][PASSED] - setText: Text 'lok' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName'
+
+2017-10-22 17:54:40 - [MESSAGE][PASSED] - Text 'lok' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName'
+
+2017-10-22 17:54:40 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName'
+
+2017-10-22 17:54:40 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName'
+
+2017-10-22 17:54:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' is clicked on
+
+2017-10-22 17:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' is clicked on
+
+2017-10-22 17:54:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' is present
+
+2017-10-22 17:54:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-22 17:54:40 - [MESSAGE][PASSED] - Object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' is present
+
+2017-10-22 17:54:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-22 17:54:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[2017-10-22 17:54:41 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+2017-10-22 17:54:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/'
+
+2017-10-22 17:54:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/'
+
+2017-10-22 17:54:48 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:54:48 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:54:48 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:54:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:54:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:54:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome Admin' is present on page 
+
+2017-10-22 17:54:52 - [MESSAGE][PASSED] - Text 'Welcome Admin' is present on page 
+
+2017-10-22 17:54:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-22 17:54:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-22 17:54:26 - [TEST_SUITE][PASSED] - SmokeSuite: Test Cases/TC02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

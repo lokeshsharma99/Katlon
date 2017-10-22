@@ -49,11 +49,6 @@
 	<classpathentry kind="lib" path="D:/plugins/com.kms.katalon.core.appium_1.0.0.201709080631.jar"/>
 	<classpathentry kind="lib" path="D:/plugins/io.appium.java-client_3.4.1.jar"/>
 	<classpathentry kind="lib" path="D:/plugins/org.apache.commons.lang3_3.1.0.v201403281430.jar"/>
-	<classpathentry kind="lib" path="D:/plugins/com.kms.katalon.core.webui_1.0.0.201709080631.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/D:/configuration/resources/apidocs/com.kms.katalon.core.webui/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="D:/plugins/com.kms.katalon.core.mobile_1.0.0.201709080631.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/D:/configuration/resources/apidocs/com.kms.katalon.core.mobile/"/>
@@ -68,6 +63,11 @@
 	<classpathentry kind="lib" path="D:/plugins/wsdl4j_1.6.2.jar"/>
 	<classpathentry kind="lib" path="D:/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="D:/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
+	<classpathentry kind="lib" path="D:/plugins/com.kms.katalon.core.webui_1.0.0.201709080631.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/D:/configuration/resources/apidocs/com.kms.katalon.core.webui/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeSuite" time="153" tests="1" failures="1" errors="0">
+   <testsuite name="SmokeSuite" tests="1" failures="1" errors="0" time="153" timestamp="2017-10-22 17:55:44" hostname="lokesh - DESKTOP-7FI2243" id="Test Suites/SmokeSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lokesh\\Katalon Studio\\recordTest\\Reports\\SmokeSuite\\20171022_175542"/>
+         <property name="logFiles" value="C:\\Users\\lokesh\\Katalon Studio\\recordTest\\Reports\\SmokeSuite\\20171022_175542\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lokesh - DESKTOP-7FI2243"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="c57a069b7cdddb69bb263fe8dac42c7e"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Lgon/TC01" classname="Test Cases/Lgon/TC01" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})"/>
+         <system-out><![CDATA[2017-10-22 17:55:44 - [TEST_CASE][FAILED] - Test Cases/Lgon/TC01: Test Cases/Lgon/TC01 FAILED because (of) Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})
+
+2017-10-22 17:55:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-22 17:55:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-22 17:55:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2017-10-22 17:56:02 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/' successfully
+
+2017-10-22 17:56:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2017-10-22 17:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2017-10-22 17:56:02 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:56:02 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:56:02 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:56:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:56:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:57:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})
+
+2017-10-22 17:57:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-22 17:57:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})
+
+2017-10-22 17:57:50 - [TEST_STEP][FAILED] - setText: Unable to set text 'lok' of object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'time[employeeName]']) = count(//*[@name = 'time[employeeName]'])][count(. | //*[@id = 'employee']) = count(//*[@id = 'employee'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})
+
+2017-10-22 17:57:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-22 17:57:50 - [MESSAGE][FAILED] - Unable to set text 'lok' of object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'time[employeeName]']) = count(//*[@name = 'time[employeeName]'])][count(. | //*[@id = 'employee']) = count(//*[@id = 'employee'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})
+
+2017-10-22 17:57:50 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '' to object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'time[employeeName]']) = count(//*[@name = 'time[employeeName]'])][count(. | //*[@id = 'employee']) = count(//*[@id = 'employee'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})
+
+2017-10-22 17:57:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-22 17:57:50 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/input_timeemployeeName' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//input[count(. | //*[@name = 'time[employeeName]']) = count(//*[@name = 'time[employeeName]'])][count(. | //*[@id = 'employee']) = count(//*[@id = 'employee'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]})
+
+2017-10-22 17:57:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//span[count(. | //*[contains(.,'Invalid')]) = count(//*[contains(.,'Invalid')])]})
+
+2017-10-22 17:57:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-22 17:57:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//span[count(. | //*[contains(.,'Invalid')]) = count(//*[contains(.,'Invalid')])]})
+
+2017-10-22 17:57:50 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' is present (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//span[count(. | //*[contains(.,'Invalid')]) = count(//*[contains(.,'Invalid')])]})
+
+2017-10-22 17:57:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-10-22 17:57:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-22 17:57:50 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC01_OR/Page_OrangeHRM (2)/span_Invalid' is present (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//span[count(. | //*[contains(.,'Invalid')]) = count(//*[contains(.,'Invalid')])]})
+
+2017-10-22 17:57:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-22 17:57:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-22 17:55:44 - [TEST_CASE][FAILED] - Test Cases/Lgon/TC01: Test Cases/Lgon/TC01 FAILED because (of) Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[2017-10-22 17:57:51 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+2017-10-22 17:57:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/'
+
+2017-10-22 17:57:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/'
+
+2017-10-22 17:57:59 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:57:59 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtUsername'
+
+2017-10-22 17:57:59 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:57:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/TC01_OR/Page_OrangeHRM/input_txtPassword'
+
+2017-10-22 17:57:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_OrangeHRM/input_Submit' is clicked on
+
+2017-10-22 17:58:17 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome Admin' is present on page 
+
+2017-10-22 17:58:17 - [MESSAGE][PASSED] - Text 'Welcome Admin' is present on page 
+
+2017-10-22 17:58:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-22 17:58:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-22 17:55:44 - [TEST_SUITE][FAILED] - SmokeSuite: Test Cases/Lgon/TC01 FAILED because (of) Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})]]></system-out>
+      <system-err><![CDATA[2017-10-22 17:55:44 - [TEST_SUITE][FAILED] - SmokeSuite: Test Cases/Lgon/TC01 FAILED because (of) Unable to click on object 'Object Repository/TC01_OR/Page_OrangeHRM (1)/img' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-7FI2243', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\lokesh\AppData\Local\Temp\scoped_dir14016_15518}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3bee1fc1197c77bf5fc8d19f74a9f73e
+*** Element info: {Using=xpath, value=//img[count(. | //*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png']) = count(//*[@src = '/webres_5786257bd7c8a5.72130757/orangehrmTimePlugin/images/MyTimesheet.png'])]})]]></system-err>
+   </testsuite>
+</testsuites>
